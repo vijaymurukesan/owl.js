@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Owl Magic</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Vijay Murukesan" href="http://www.vijay-m.com" title="Owl js" />
+    <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+</head>
+<body>
+<!-- Rendered HTML will be populated here. -->
+<div class="container">
+    <div class="col-xs-12" id="result">{{Owl.js}} is not working</div>
+</div>
+
+<!-- Own Template -->
+<script type="text/html" id="template">
+    {{$$.h1}}{{ Owl.js }} {{$$.h1$$}}
+    {{$$.h2 class="owl" id="owl" }}How can you benafit from it.{{$$.h2$$}}
+    {{$$.ul}}
+        {{$$.li data-check="just for checking" }}It gives us power of updating the mark-up any time and it does not have to re-integrated.{{$$.li$$}}
+        {{$$.li}}It gives us the power of reflecting same brand across the different website of the same company.{{$$.li$$}}
+        {{$$.li}}Less cost of development.{{$$.li$$}}
+        {{$$.li}}Easy migration to different version of HTML (let say HTML6 :P){{$$.li$$}}
+        {{$$.li}}It has simple syntax, which we can also expose in the build pages.{{$$.li$$}}
+        {{$$.li}}It gives us the flexibility like CSS.{{$$.li$$}}
+        {{$$.li}}Users just need to use the updated variable and they can make sure they are updated in terms of code.{{$$.li$$}}
+    {{$$.ul$$}}
+</script>
+
+<!--Dependancy -->
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<!-- Owl Script -->
+<script src="js/owlvariable.js"></script>
+<script src="js/owl.js"></script> 
+
+</body>
+</html>
